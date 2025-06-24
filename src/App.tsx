@@ -1,9 +1,10 @@
 import "./App.css"
 import GameStatus from "./components/GameStatus/GameStatus"
 import Board from "./components/Board/Board"
+import useGameLogic from "./hooks/useGameLogic"
 
 function App() {
-  const squares: string[] = Array(25).fill("hi");
+  const { squares } = useGameLogic();
 
   return (
     <>
