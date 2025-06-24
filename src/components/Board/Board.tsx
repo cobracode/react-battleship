@@ -1,4 +1,4 @@
-import './Board.css';
+import "./Board.css";
 
 const Board = ({ squares }: { squares: string[] }) => {
   return <div className="board">

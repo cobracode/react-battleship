@@ -1,5 +1,5 @@
 const GameStatus = () => {
-  return <div>GameStatus</div>;
+  return <div>Battleship!</div>;
 };
 
 export default GameStatus;
